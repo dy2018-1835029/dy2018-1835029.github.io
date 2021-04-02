@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diana's Awesome Website</title>
+    <link rel="stylesheet" href="anExternal.css">
+    <style>
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    /* Centered text */
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Diana Dai</h1>
+    <h2>Basic Information</h2>
+    <ul>
+        <li>Name: Diana Dai</li>
+        <li>Course: Info 101</li>
+        <li>Section: AE</li>
+        <li>Builder #2: Original Work</li>
+    </ul>
+
+    <h2>Requirements Satisfied: Master</h2>
+    <ol>
+      <li>Two paragraphs that each have a different font</li>
+      <li>Two pictures that were originally different sizes, resized to 50px by 50px.</li>
+      <li>One more unique CSS command that was not discussed in the workshop</li>
+      <li>Text that is centered on a photo</li>
+      <li>A photo with 20 pixel margins on each side</li>
+      <li>Text with a border that uses dotted lines</li>
+      <li>An external style sheet</li>
+      <li>An element with rounded border corners</li>
+      <li>A floated element</li>
+    </ol>
+
+    <h2>Two paragraphs</h2>
+    <p style="color:blue;text-align:center;font-family:Times">
+      I was born in Guangzhou and went to Canada for high school.
+      I have never see so much snow before I go to Canada. The first day that I saw snow, I almost cried.
+    </p>
+    <p style="color:green;text-align:center;font-family: sans-serif">
+      I came to UW for college three years ago.
+      Seattle is quite rainy. Also, it does not how to handle snow.
+    </p>
+
+    <h2>Two pictures</h2>
+    <a href="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png">
+      <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="cat 1" style="width:50px; height:50px">
+    </a>
+    <a href="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
+      <img src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg" alt="cat 2" style="width:50px; height:50px">
+    </a>
+
+    <h2>One more unique CSS: background color</h2>
+    <p style="background-color:Tomato;">See the background color!</p>
+
+    <h2>Text that is centered on a photo</h2>
+    <div class="container">
+      <img src="https://static.scientificamerican.com/sciam/cache/file/92E141F8-36E4-4331-BB2EE42AC8674DD3_source.jpg" alt="Another Cat" style="width:30%;">
+      <div class="centered">Centered Text</div>
+    </div>
+
+    <h2>A photo with 20 pixel margins on each side</h2>
+    <img src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg" alt="cat 2" style="width:600px; height:400px; margin:20px">
+
+    <h2>Text with a border that uses dotted lines</h2>
+    <p style="border-style: dotted;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <h2>An external style sheet</h2>
+    <p>Look at the code, you should find my anExternal.css.</p>
+
+    <h2>An element with rounded border corners</h2>
+    <p id="rounded-corner">Rounded corners!</p>
+
+    <h2>A floated element</h2>
+    <div>
+      <div class="red-float">Red float left</div>
+      <div class="blue-float">Blue float right</div>
+    </div>
+  </body>
+</html>
